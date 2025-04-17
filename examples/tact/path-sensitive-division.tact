@@ -1,10 +1,6 @@
 contract Divider {
-
   init() {}
-
-  receive() {
-    // Do nothing
-  }
+  receive() {}
 
   get fun subtractAndDivide(subtrahend: Int, dividend: Int, flag: Bool): Int {
     let divider: Int = 42;
